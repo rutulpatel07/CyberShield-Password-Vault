@@ -1,8 +1,24 @@
-# Welcome to your Lovable project
+# CyberShield: Password Vault
 
-## Project info
+## Project Overview
 
-**URL**: https://lovable.dev/projects/677b4c22-1d45-4969-b553-45f2c2db92b7
+CyberShield is an advanced password security application designed to help users create, analyze, and strengthen their passwords with cutting-edge features.
+
+## Features
+
+- 🛡️ Password Strength Analysis
+- 🔐 Strong Password Generation
+- 🕰️ Time-to-Crack Estimation
+- 🚨 Common Password Detection
+- 🌐 Cybersecurity-Themed Matrix Background
+
+## Project Technologies
+
+- Vite
+- TypeScript
+- React
+- shadcn-ui
+- Tailwind CSS
 
 ## How can I edit this code?
 
