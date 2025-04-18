@@ -4,18 +4,19 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Password Strength Checker</title>
+    <title>Password Security Suite</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+    <canvas id="matrix-bg"></canvas>
     <div class="container">
         <div class="password-checker">
             <div class="header">
                 <svg class="shield-icon" xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
                     <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/>
                 </svg>
-                <h2>Password Checker</h2>
-                <p>Check how strong your password is</p>
+                <h2>Password Security Suite</h2>
+                <p>Create and analyze secure passwords</p>
             </div>
 
             <div class="input-container">
@@ -28,11 +29,20 @@
                 </button>
             </div>
 
+            <div class="button-group">
+                <button id="generate-password" class="action-button">Generate Strong Password</button>
+                <button id="copy-password" class="action-button">Copy Password</button>
+            </div>
+
             <div class="strength-meter">
                 <div class="strength-progress"></div>
             </div>
 
-            <div class="criteria-list"></div>
+            <div class="password-info">
+                <div class="criteria-list"></div>
+                <div id="time-to-crack" class="time-to-crack"></div>
+                <div id="common-check" class="common-check"></div>
+            </div>
         </div>
     </div>
     <script src="script.js"></script>
